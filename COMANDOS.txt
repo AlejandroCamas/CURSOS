@@ -1,0 +1,5 @@
+git add . //es para agregar los archivos
+git pull origin main //es para traer de la nuve al local
+git push origin main //es para mandar del local a la nuve
+git init // para agregar una nueva carpeta
+git remote add origin (link del repositorio) //nos sirve para poder usar nuestro repositorio.

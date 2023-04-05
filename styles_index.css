@@ -12,6 +12,10 @@
       margin: 0;
       font-family: 'Quicksand', sans-serif;
     }
+
+    .inactive {
+      display: none; /* usamos esta clase para que el menu desaparezca amenos que le usuario de click*/
+    }
     nav {
       display: flex;
       justify-content: space-between;
@@ -80,7 +84,7 @@
 
     .desktop-menu {
       position: absolute;
-      top : 61px;
+      top : 60px;
       right: 61px;
       background: var(--white);
       width: 100px;

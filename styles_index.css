@@ -16,6 +16,7 @@
     .inactive {
       display: none; /* usamos esta clase para que el menu desaparezca amenos que le usuario de click*/
     }
+    
     nav {
       display: flex;
       justify-content: space-between;
@@ -81,7 +82,7 @@
 
 
 
-
+/*aqui tenemos el css de nuestro menu en desktop*/
     .desktop-menu {
       position: absolute;
       top : 60px;

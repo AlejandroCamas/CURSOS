@@ -122,7 +122,39 @@
     }
 
 
-  
+  /*aqui colocaremos el CSS de nuestra vercion  de nuestro menu en movile para tener todo ordenado.*/
+  .mobile-menu {
+    position: absolute;
+    top: 60px;
+    padding: 24px;
+  }
+  .mobile-menu a {
+    text-decoration: none;
+    color: var(--black);
+    font-weight: bold;
+    /* margin-bottom: 24px; */
+  }
+  .mobile-menu ul {
+    padding: 0;
+    margin: 24px 0 0;
+    list-style: none;
+  }
+  .mobile-menu ul:nth-child(1) {
+    border-bottom: 1px solid var(--very-light-pink);
+  }
+  .mobile-menu ul li {
+    margin-bottom: 24px;
+  }
+  .email {
+    font-size: var(--sm);
+    font-weight: 300 !important;
+  }
+  .sign-out {
+    font-size: var(--sm);
+    color: var(--hospital-green) !important;
+  }
+
+/*este es el media para desktop*/
     @media (max-width: 640px) {
       .menu {
         display: block;
@@ -133,4 +165,14 @@
       .navbar-email {
         display: none;
       }
+      .desktop-menu {
+        display: none;
+      }
     }
+/*este es para el movile*/
+@media (min-width: 641px){
+  .mobile-menu{
+    display: none;
+  }
+}
+/*significado de lo que colocamos: colocamos en min-width de 641px para que no haya problemas con el desktop menu*/

@@ -4,6 +4,14 @@ const desktopMenu = document.querySelector('.desktop-menu');
 const menoHamIcon = document.querySelector('.menu');
 const mobileMenu = document.querySelector('.mobile-menu');
 
+/*aqui pondremos lo del carrito de compras */
+const menuCarrito = document.querySelector('.navbar-shopping-cart');
+const aside = document.querySelector('.product-detail');
+menuCarrito.addEventListener('click', toggCarritoAside);
+
+
+
+
 menuEmail.addEventListener('click', toggleDesktoopMenu);
 /*aqui es para la vercion de movil */
 menoHamIcon.addEventListener('click', toggleMobilMenu);
@@ -21,6 +29,11 @@ function toggleMobilMenu () {
     mobileMenu.classList.toggle('inactive');
 }
 
+/*aqui tenemos la funcion del carrito */
+
+function toggCarritoAside(){
+    aside.classList.toggle('inactive');
+}
 
 /*const menuEmail = document.querySelector('.navbar-email');
 const desktopMenu = document.querySelector('.desktop-menu');

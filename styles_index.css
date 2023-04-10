@@ -252,6 +252,7 @@
         width: 100%;
       }
     }
+    /*separamos las cosas para no confundirnos al momento de editar*/
 /*este es para el movile*/
 @media (min-width: 641px){
   .mobile-menu{
